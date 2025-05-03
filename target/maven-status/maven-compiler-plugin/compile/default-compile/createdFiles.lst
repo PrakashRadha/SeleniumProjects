@@ -1,0 +1,6 @@
+Utilities\BaseClass.class
+PageActions\SearchHotelPageActions.class
+PageObjects\BasePage.class
+PageObjects\SearchHotel.class
+PageActions\LoginPageActions.class
+PageObjects\LoginPage.class

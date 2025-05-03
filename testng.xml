@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <!-- Listeners for reporting and test execution -->
+    <listeners>
+        <listener class-name="com.testng.MyTestListener"></listener>
+        <listener class-name="com.testng.ExtentReporter"></listener>
+    </listeners>
+
+    <!-- Define parallel test execution -->
+    <test thread-count="5" name="Test">
+        <classes>
+            <class name="com.testng.AssertionsDemo"></class>
+            <class name="com.testng.SampleLogic"></class>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
